@@ -18,11 +18,17 @@ An emergency responder's app should keep essential information available when co
 
 Resource: Android Developers - Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 ## Networking
+5G network slicing allows an operator to create multiple logical networks on shared physical infrastructure. Each slice can be configured for different service requirements. A dedicated slice for emergency responders could help prioritize their communication needs during busy periods. However, slicing alone cannot guarantee uninterrupted service. Reliable operation also depends on sufficient capacity, resilient equipment, correct configuration, monitoring, and security controls.
 
+Resource: 3GPP - Network Slicing - https://www.3gpp.org/technologies/network-slicing
 ## Cybersecurity
+The incident response lifecycle includes preparation, detection and analysis, containment, eradication, recovery, and lessons learned. Before an attack, teams prepare procedures and monitoring. During an incident, they investigate alerts and contain affected systems to limit damage. They then remove the threat, restore services safely, and review what happened to improve future response. These activities should be coordinated and documented throughout the incident.
 
+Resource: NIST - SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 ## Data
+A star schema organizes reporting data around a central fact table connected directly to dimension tables, such as date and region. A snowflake schema normalizes dimensions into additional related tables, reducing some duplication but requiring more joins. For daily service-usage reports by region, a star schema is often a practical choice because it is simpler to understand and query. The final design should match reporting and data-quality needs.
 
+Resource: Microsoft Learn - Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
 
 ## Open Question
