@@ -30,5 +30,6 @@ A star schema organizes reporting data around a central fact table connected dir
 
 Resource: Microsoft Learn - Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
-
+A common misconception is that a dedicated 5G network slice automatically guarantees uninterrupted emergency communications. Slicing creates logical networks that can be configured for different service needs, but it cannot prevent every possible failure. Power loss, damaged equipment, poor configuration, or cyberattacks may still disrupt service. The 3GPP Network Slicing overview explains how slicing supports different service requirements; this should not be confused with a guarantee of availability. Operators still need capacity planning, monitoring, resilient infrastructure, and recovery procedures.
 ## Open Question
+How should an operator measure the reliability of an emergency 5G slice during a major outage, and what backup communication method should be available if the slice fails?
